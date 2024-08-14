@@ -6,10 +6,10 @@ HTML, CSS e JavaScript
 
 ## Estrutura de Páginas 
 
-├── assets/
-├── src/
-    └── script.js
-├── css/
-│   └── style.css
-├── README.md
-├── Index.html
+*assets/
+*src/
+*script.js
+*css/
+*style.css
+*README.md
+*Index.html
