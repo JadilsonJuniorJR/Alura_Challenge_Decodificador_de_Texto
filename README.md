@@ -3,13 +3,3 @@ O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface interativa 
 
 ## Tecnologias utilizadas
 HTML, CSS e JavaScript
-
-## Estrutura de Páginas 
-
-*assets/
-*src/
-*script.js
-*css/
-*style.css
-*README.md
-*Index.html
