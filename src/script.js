@@ -1,13 +1,9 @@
 // Verifica se tem caracteres não permitidos
 function verificar_condicao(texto_digitado) {
-    let regex = /^[a-z]+$/;
+    let regex = /^[a-z\s]+$/;
     let alerta_span = document.getElementById("span_atencao");
 
-    if (texto_digitado == "") {
-        alert("Campo vazio!")
-        return;
-    }
-
+  
     // Verifica se o texto contém caracteres não permitidos
     if (!regex.test(texto_digitado)) {
         // Se o texto contém caracteres não permitidos, limpa o campo de entrada
