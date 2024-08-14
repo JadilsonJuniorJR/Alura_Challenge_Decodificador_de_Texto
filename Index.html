@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Alura Challenge</title>
+</head>
+
+<body>
+
+    <main class="divisoria_principal">
+        <section class="divisoria_esquerda">
+            <header class="divisoria_esquerda_cabecalho">
+                <img src="./assets/logoAlura.png">
+            </header>
+
+            <div class="divisoria_esquerda_area_texto">
+                <textarea id="area_de_texto" placeholder="Digite o seu texto"></textarea>
+            </div>
+
+            <footer class="divisoria_esquerda_rodape">
+                <div id="divisoria_esquerda_rodape_caixa">
+                    <span id="span_atencao">
+                        <img src="./assets/frame1.png" alt="icone de atenção" />
+                        <p>Apenas letras minusculas e sem acentos!</p>
+                    </span>
+                    <div id="divisoria_esquerda_rodape_caixa_botoes">
+                        <button id="botao_criptografar" onclick="criptografar()"> Criptografar</button>
+                        <button id="botao_descriptografar" onclick="descriptografar()"> Descriptografar</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <section class="divisoria_direita">
+            <div id="divisoria_direita_caixa_inicio">
+                <img src="./assets/img1.png">
+                <h2> Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div id="divisoria_direita_caixa_oculta">
+                <textarea class="input__criptografado" id="texto_descriptografado" readonly></textarea>
+                <button id="botao_copiar" onclick="copiar_texto()">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+    <footer class="rodape">
+        <p> Desenvolvidor por Jadilson Junior [ <span id="negrito">GitHub</span>  <a> JuniorCruz</a> ] </p>
+    </footer>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
